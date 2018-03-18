@@ -1,0 +1,11 @@
+<div class="box">
+  <header>
+    <section>
+      <label for="inp">ToDoList</label>
+      <input id="inp" class="inp" type="text" placeholder="添加ToDo" [(ngModel)]="content">   
+    </section>
+    <button (click)="addData()">添加数据</button>
+  </header>
+</div>
+<div class="box2"><app-record [tolist] = "tolist" (getIndex)="getI($event)"></app-record></div>
+
