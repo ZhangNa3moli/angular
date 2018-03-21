@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { RecordComponent } from './components/record/record.component';
 import { FormsModule } from '@angular/forms';
+import { LocalstorageService } from './services/localstorage.service';
 
 
 
@@ -18,7 +19,7 @@ import { FormsModule } from '@angular/forms';
     FormsModule
 
   ],
-  providers: [],
+  providers: [LocalstorageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

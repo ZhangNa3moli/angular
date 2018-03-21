@@ -1,4 +1,5 @@
-import { Component, OnInit ,Input , Output,EventEmitter} from '@angular/core';
+import { Component,Optional ,OnInit ,Input , Output,EventEmitter, } from '@angular/core';
+
 
 @Component({
   selector: 'app-record',
@@ -7,7 +8,9 @@ import { Component, OnInit ,Input , Output,EventEmitter} from '@angular/core';
 })
 export class RecordComponent implements OnInit {
 
-  constructor() { }
+  constructor( ) {
+
+  }
 
   @Input( ) tolist:Array<any>;
   @Output() getIndex=new EventEmitter();
