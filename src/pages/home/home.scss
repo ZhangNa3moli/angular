@@ -1,0 +1,136 @@
+page-home {
+  .con{
+      padding:0;
+      margin: 0;
+   }
+   
+  .slider{
+     width:100%;
+     height:auto;
+  }
+  .box{
+    margin:0;
+    padding:0;
+    margin-top:5px;
+    height:200px;
+  }
+  ion-col{
+     border:1px solid  #b6b6b6;
+  }
+  ion-col img{
+    width:69px;
+    height:59px;
+    padding-top:6px;
+    padding-left:20px;
+  }
+  ion-col span{
+      float:left;
+      padding-left:14px;
+      font-family: '黑体';
+  }
+  .goodinfo{
+    float: left;
+    width:100%;
+    height:auto;
+    margin-top:5px;    
+    border:1px solid red;
+  }
+  .good{
+    height:60px;
+    border-top:1px solid #b6b6b6;
+    border-bottom:1px solid #b6b6b6;
+  }
+  .good p{
+     font-family: "黑体";
+     font-size:25px;
+     margin-top:-43px;
+     margin-left:42px;
+  }
+  .zichan{
+    font-family: "黑体";
+    font-size:16px;
+    margin-left:10px;
+    margin-top:5px;
+    line-height:25px;
+
+  }
+  .zichan span{
+    color:#b6b6b6;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+
+  }
+ .lone{
+     margin-top:-10px;
+     height:120px;
+     border-top:1px solid #b6b6b6;
+     border-bottom:1px solid #b6b6b6;
+ }
+  .img{
+    width:75px;
+    height:90px;
+    margin-top:10px;
+    border:1px solid green;
+  }
+  .word{
+    margin-top:-100px;
+  }
+  .word p{
+    font-family: "黑体";
+    font-size:16px;
+    color:gray;
+    margin-left:20%;
+
+  }
+  .list p span{
+    color:black;
+  }
+  .five{
+    float:left;
+    margin-top:-120px;
+    margin-left:51%;
+  }
+  .fi{
+    color:red;
+    font-size:25px;
+  }
+ .money {
+    color:gray;
+    margin-top:-20px;
+  }
+  .three{
+    float: left;
+    margin-top:-120px;
+    margin-left:70%;
+  }
+  .th{
+    color:red;
+    font-size:25px;
+  }
+  .price{
+    color:gray;
+    margin-top:-20px;
+  }
+  .goodservice{
+    float: left;
+    width:100%;
+    height:auto;
+    margin-top:5px;    
+    border:1px solid red;
+  }
+  .service{
+    height:60px;
+    border-top:1px solid #b6b6b6;
+    border-bottom:1px solid #b6b6b6;
+  }
+ .service img{
+     padding-top:4px;
+ }
+ .service p{
+  font-family: "黑体";
+  font-size:25px;
+  margin-top:-50px;
+  margin-left:42px;
+}
+}
