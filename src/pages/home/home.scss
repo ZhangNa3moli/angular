@@ -1,4 +1,5 @@
 page-home {
+  background-color:gray; 
   .con{
       padding:0;
       margin: 0;
@@ -14,8 +15,11 @@ page-home {
     margin-top:5px;
     height:200px;
   }
+  .grid{
+    padding:0px;
+  }
   ion-col{
-     border:1px solid  #b6b6b6;
+     border:0.5px solid  #b6b6b6;
   }
   ion-col img{
     width:69px;
@@ -32,13 +36,12 @@ page-home {
     float: left;
     width:100%;
     height:auto;
-    margin-top:5px;    
-    border:1px solid red;
+    margin-top:15px; 
+    border-top:0.55px solid #c8c7cc; 
+
   }
   .good{
     height:60px;
-    border-top:1px solid #b6b6b6;
-    border-bottom:1px solid #b6b6b6;
   }
   .good p{
      font-family: "黑体";
@@ -46,50 +49,57 @@ page-home {
      margin-top:-43px;
      margin-left:42px;
   }
-  .zichan{
+  .lie{
+    height:110px;
+  }
+  .list-ios > .item-block:last-child{
+     border-bottom:1px solid #f0f0f0; 
+  }
+  .bao{
+    float: left;
+    width:100%;
+    height:30px;
     font-family: "黑体";
     font-size:16px;
-    margin-left:10px;
-    margin-top:5px;
-    line-height:25px;
+    padding-left:10px;
+    padding-top:5px;
+    border-top:0.55px solid #c8c7cc; 
+    border-bottom:0.55px solid #c8c7cc;
 
   }
-  .zichan span{
+  .bao span{
     color:#b6b6b6;
     font-family: "黑体";
     font-size:16px;
     padding-left:10px;
 
   }
- .lone{
-     margin-top:-10px;
-     height:120px;
-     border-top:1px solid #b6b6b6;
-     border-bottom:1px solid #b6b6b6;
- }
   .img{
-    width:75px;
-    height:90px;
-    margin-top:10px;
-    border:1px solid green;
+    width:91px;
+    height:95px;
+    margin-top:-8px;
+    margin-left:-12px;
   }
   .word{
-    margin-top:-100px;
+    float:left;
+    width:32%;
+    margin-left:22%;
+    margin-top:-80px;
   }
   .word p{
-    font-family: "黑体";
-    font-size:16px;
     color:gray;
-    margin-left:20%;
-
   }
-  .list p span{
+  .word span{
+    font-family: "黑体";
     color:black;
+    font-size:16px;
+    padding-left:3px;
+
   }
   .five{
     float:left;
-    margin-top:-120px;
-    margin-left:51%;
+    margin-top:-75px;
+    margin-left:55%;
   }
   .fi{
     color:red;
@@ -97,32 +107,29 @@ page-home {
   }
  .money {
     color:gray;
-    margin-top:-20px;
   }
   .three{
     float: left;
-    margin-top:-120px;
-    margin-left:70%;
+    margin-top:-79px;
+    margin-left:76%;
   }
   .th{
     color:red;
-    font-size:25px;
+    font-size:28px;
   }
   .price{
     color:gray;
-    margin-top:-20px;
   }
   .goodservice{
     float: left;
     width:100%;
     height:auto;
-    margin-top:5px;    
-    border:1px solid red;
+    margin-top:15px; 
+    border-top:0.55px solid #c8c7cc;   
+
   }
   .service{
     height:60px;
-    border-top:1px solid #b6b6b6;
-    border-bottom:1px solid #b6b6b6;
   }
  .service img{
      padding-top:4px;
@@ -130,7 +137,75 @@ page-home {
  .service p{
   font-family: "黑体";
   font-size:25px;
-  margin-top:-50px;
+  margin-top:-43px;
   margin-left:42px;
+}
+.lie2{
+  height:110px;
+}
+.bao2{
+  float: left;
+  width:100%;
+  height:30px;
+  font-family: "黑体";
+  font-size:16px;
+  padding-left:10px;
+  padding-top:5px;
+  border-top:0.55px solid #c8c7cc; 
+  border-bottom:0.55px solid #c8c7cc;
+
+}
+.bao2 span{
+  color:#b6b6b6;
+  font-family: "黑体";
+  font-size:16px;
+  padding-left:10px;
+
+}
+.img2{
+  width:91px;
+  height:95px;
+  margin-top:-8px;
+  margin-left:-12px;
+}
+.word2{
+  float:left;
+  width:32%;
+  margin-left:22%;
+  margin-top:-80px;
+}
+.word2 p{
+  color:gray;
+}
+.word2 span{
+  font-family: "黑体";
+  color:black;
+  font-size:16px;
+  padding-left:3px;
+
+}
+.five2{
+  float:left;
+  margin-top:-75px;
+  margin-left:55%;
+}
+.fi2{
+  color:red;
+  font-size:25px;
+}
+.money2 {
+  color:gray;
+}
+.three2{
+  float: left;
+  margin-top:-79px;
+  margin-left:76%;
+}
+.th2{
+  color:red;
+  font-size:28px;
+}
+.price2{
+  color:gray;
 }
 }

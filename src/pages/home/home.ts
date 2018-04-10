@@ -31,6 +31,10 @@ export class HomePage {
   }
   //分组按钮
   search:string="infor";
+  //信息列表
+  itemSelected(item) {
+    console.log("Selected Item", item);
+  }
   //无限滚动
   doInfinite(infiniteScroll) {
     console.log('Begin async operation');

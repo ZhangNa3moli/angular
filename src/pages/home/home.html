@@ -98,38 +98,37 @@
                   <p>优质信息</p>
               </div>             
            </div> 
-        </ion-list>
 
 
-  <ion-list >
-      <ion-item  *ngFor="let i of items"> 
-         <p class="zichan">资产承包转让<span>--FB001</span></p>
-         <div  class="list">
-            <div class="lone">
-                <div class="img">
-                     <img src="../../assets/imgs/ione.png">
+        <ion-list *ngFor="let item of items">
+               <div class="bao">资产承包转让<span>--FB001</span></div>
+               <button ion-item  (click)="itemSelected(item)" class="lie">
+                  <div class="one">
+                    <div class="img">
+                       <img src="../../assets/imgs/ione.png">
+                    </div>
+                    <div class="word">
+                      <p>地区:<span>北京</span></p>
+                      <p>来源:<span>银行</span></p>
+                      <p>资产包类型:<span>抵押</span></p>
+                    </div>
+                    <div class="five">
+                       <p class="fi">500万</p>
+                       <p class="money">总金额</p>
+                    </div>
+                    <div class="three">
+                        <p class="th">300万</p>
+                        <p class="price">转让价</p>
+                    </div>
                 </div>
-                <div class="word">
-                     <p>地区:<span>北京</span></p>
-                     <p>来源:<span>银行</span></p>
-                     <p>资产包类型:<span>抵押</span></p>
-                </div>
-                <div class="five">
-                     <p class="fi">500万</p>
-                     <p class="money">总金额</p>
-                </div>
-                <div class="three">
-                    <p class="th">300万</p>
-                    <p class="price">转让价</p>
-                </div>
-               <!-- <ion-img style="width: 80px; height: 80px;" src="../../assets/imgs/arrow.png"></ion-img> -->
-                
-              <!-- <button ion-button clear item-end></button> -->
+             </button>
+       </ion-list>
+   
+</ion-list>
+
+
+
   
-            </div>
-        </div>
-      </ion-item>
-    </ion-list>
         
 
     <ion-list *ngSwitchCase="'service'" class="pick2">
@@ -173,44 +172,44 @@
             </ion-grid>
 
             <div class="goodservice">
-              <div class="service">
+               <div class="service">
                   <img src="../../assets/imgs/star.png" >
                   <p>精选服务</p>
-              </div>
+               </div>
             </div>
-              
-     </ion-list>
 
-     <ion-list >
-        <ion-item *ngFor="let i of items">
-            <p class="zichan">资产承包收购<span>--PV1001</span></p>
-            <div  class="list">
-                  <div class="lone">
-                    <div class="img">
-                         <img src="../../assets/imgs/ione.png">
-                    </div>
-                    <div class="word">
-                         <p>地区:<span>北京</span></p>
-                         <p>来源:<span>银行</span></p>
-                         <p>类型:<span>抵押</span></p>
-                    </div>
-                    <div class="five">
-                         <p class="fi">500万</p>
-                         <p class="money">总金额</p>
-                    </div>
-                    <div class="three">
-                        <p class="th">300万</p>
-                        <p class="price">转让价</p>
-                    </div>
-                   <!-- <ion-img style="width: 80px; height: 80px;" src="../../assets/imgs/arrow.png"></ion-img> -->
-                    
-                  <!-- <button ion-button clear item-end></button> -->
+
+
+            <ion-list *ngFor="let item of items">
+                    <div class="bao2">资产承包收购<span>--PV1001</span></div>
+                    <button ion-item  (click)="itemSelected(item)" class="lie2">
+                       <div class="two">
+                         <div class="img">
+                            <img src="../../assets/imgs/ione.png">
+                         </div>
+                         <div class="word2">
+                           <p>地区:<span>北京</span></p>
+                           <p>来源:<span>银行</span></p>
+                           <p>类型:<span>抵押</span></p>
+                         </div>
+                         <div class="five2">
+                            <p class="fi2">500万</p>
+                            <p class="money2">总金额</p>
+                         </div>
+                         <div class="three2">
+                             <p class="th2">300万</p>
+                             <p class="price2">转让价</p>
+                         </div>
+                     </div>
+                  </button>
+            </ion-list>
   
-                </div>
-            </div>
-      </ion-item>
-    </ion-list>
 
+</ion-list>
+
+
+
+  
   
       
       <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
