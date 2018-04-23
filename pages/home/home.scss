@@ -1,0 +1,218 @@
+page-home {
+  .con{
+      padding:0;
+      margin: 0;
+   }
+   ion-title{
+      margin-left: 20%;
+   }
+   
+  .slider{
+     width:100%;
+     height:auto;
+  }
+  .box{
+    margin:0;
+    padding:0;
+    margin-top:5px;
+    height:200px;
+  }
+  .grid{
+    padding:0px;
+  }
+  ion-col{
+     border:0.5px solid  #b6b6b6;
+  }
+  ion-col img{
+    width:69px;
+    height:59px;
+    padding-top:6px;
+    padding-left:10px;
+  }
+  .zichan{
+    float:left;
+    padding-left:5px;
+    font-family: '黑体';
+  }
+  ion-col span{
+      float:left;
+      padding-left:14px;
+      font-family: '黑体';
+  }
+  .goodinfo{
+    float: left;
+    width:100%;
+    height:auto;
+    margin-top:15px; 
+    border-top:0.55px solid #c8c7cc; 
+
+  }
+  .good{
+    height:60px;
+  }
+  .good p{
+     font-family: "黑体";
+     font-size:25px;
+     margin-top:-43px;
+     margin-left:42px;
+  }
+  .lie{
+    height:110px;
+  }
+  .list-ios > .item-block:last-child{
+     border-bottom:1px solid #f0f0f0; 
+  }
+  .bao{
+    float: left;
+    width:100%;
+    height:30px;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+    padding-top:5px;
+    border-top:0.55px solid #c8c7cc; 
+    border-bottom:0.55px solid #c8c7cc;
+
+  }
+  .bao span{
+    color:#b6b6b6;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+
+  }
+  .img{
+    width:91px;
+    height:95px;
+    margin-top:-8px;
+    margin-left:-12px;
+  }
+  .word{
+    float:left;
+    width:32%;
+    margin-left:22%;
+    margin-top:-80px;
+  }
+  .word p{
+    color:gray;
+  }
+  .word span{
+    font-family: "黑体";
+    color:black;
+    font-size:16px;
+    padding-left:3px;
+
+  }
+  .five{
+    float:left;
+    margin-top:-75px;
+    margin-left:58%;
+  }
+  .fi{
+    color:red;
+    font-size:25px;
+  }
+ .money {
+    color:gray;
+  }
+  .three{
+    float: left;
+    margin-top:-75px;
+    margin-left:80%;
+  }
+  .th{
+    color:red;
+    font-size:25px;
+  }
+  .price{
+    color:gray;
+  }
+  .goodservice{
+    float: left;
+    width:100%;
+    height:auto;
+    margin-top:15px; 
+    border-top:0.55px solid #c8c7cc;   
+
+  }
+  .service{
+    height:60px;
+  }
+ .service img{
+     padding-top:4px;
+ }
+ .service p{
+  font-family: "黑体";
+  font-size:25px;
+  margin-top:-43px;
+  margin-left:42px;
+}
+.lie2{
+  height:110px;
+}
+.bao2{
+  float: left;
+  width:100%;
+  height:30px;
+  font-family: "黑体";
+  font-size:16px;
+  padding-left:10px;
+  padding-top:5px;
+  border-top:0.55px solid #c8c7cc; 
+  border-bottom:0.55px solid #c8c7cc;
+
+}
+.bao2 span{
+  color:#b6b6b6;
+  font-family: "黑体";
+  font-size:16px;
+  padding-left:10px;
+
+}
+.img2{
+  width:91px;
+  height:95px;
+  margin-top:-8px;
+  margin-left:-12px;
+}
+.word2{
+  float:left;
+  width:32%;
+  margin-left:25%;
+  margin-top:-80px;
+}
+.word2 p{
+  color:gray;
+}
+.word2 span{
+  font-family: "黑体";
+  color:black;
+  font-size:16px;
+  padding-left:3px;
+
+}
+.five2{
+  float:left;
+  margin-top:-75px;
+  margin-left:58%;
+}
+.fi2{
+  color:red;
+  font-size:25px;
+}
+.money2 {
+  color:gray;
+}
+.three2{
+  float: left;
+  margin-top:-75px;
+  margin-left:80%;
+}
+.th2{
+  color:red;
+  font-size:25px;
+}
+.price2{
+  color:gray;
+}
+}

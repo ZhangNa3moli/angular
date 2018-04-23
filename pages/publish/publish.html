@@ -1,0 +1,60 @@
+<ion-header>
+    <ion-navbar color="yell">
+        <button ion-button icon-only menuToggle>
+            <ion-icon name="ios-arrow-back"></ion-icon>
+        </button>
+
+        <ion-title>
+            发布信息
+        </ion-title>
+    </ion-navbar>
+</ion-header>  
+
+<ion-content>
+    <div class="con">
+        <ion-list class="pu1" >
+            <ion-item class="i1">
+                地区
+                <span class="s1">请选择</span>
+                <img class="imag1" src="../../assets/imgs/arrow.png">
+            </ion-item>
+            <ion-item class="i1">
+                来源
+                <span class="s2">北京</span>
+                <img class="imag2" src="../../assets/imgs/arrow.png">
+            </ion-item>
+            <ion-item class="i1">
+                总金额
+                <span class="s3">请输入</span>
+                <img class="imag3" src="../../assets/imgs/arrow.png">
+            </ion-item>
+            <ion-item class="i1">
+                转让价
+                <span class="s4">300万</span>
+                <img class="imag4" src="../../assets/imgs/arrow.png">
+            </ion-item>
+
+
+        </ion-list>
+
+        <p class="des">内容描述</p>
+
+        <div class="please">
+            <textarea placeholder="请输入内容..." class="write"></textarea>
+            <ion-item class="add">
+                <ion-icon name="ios-mic-outline" class="mic"></ion-icon>
+                <ion-icon name="ios-image-outline" class="image"></ion-icon>
+            </ion-item>
+        </div>
+
+        <ion-list>
+            <ion-item class="sub">
+                清单上传
+                <ion-note item-end>仅限于PC端上传</ion-note>
+            </ion-item>
+        </ion-list>
+
+        <button ion-button  class="btn1" (click)="navCtrl1()">确认发布</button>
+    </div>
+
+</ion-content>

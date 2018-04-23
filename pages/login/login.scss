@@ -1,0 +1,80 @@
+page-login {
+     ion-content{
+        background-image: url(../../assets/imgs/bg1.png);
+        background-size: 100%;    
+     }
+     ion-title{
+         margin-left: 30%;
+         border:none;
+     }
+     .toolbar-title{
+         color:#ffffff;
+     }
+     .logo{
+         width:75%;
+         height:110px;
+         margin-left:20%;
+         margin-top:15%;
+     }
+     .word1{
+        float: left;      
+        width:80%;
+        height:80%;
+     }
+     .word2{
+        float: left;
+        margin-top:-8%;
+        color:#ebebeb;
+        font-size:16px;
+        font-family: "黑体";
+     }
+     .phone{
+         width:35px;
+         height:35px;
+         margin-left:10%;
+         margin-left:10%;
+         margin-top:5%;
+     }
+     .psw{
+        width:35px;
+        height:35px;
+        margin-left:10%;
+        margin-top:5%;
+     }
+     ion-input{
+         font-size:15px;
+         text-indent:-12px;         
+     }
+     .ph{
+         border-bottom:1px solid white;
+         width:65%;
+         margin-left:22%;
+         margin-top:-17%;
+         font-family: "黑体";
+     }
+     .ps{
+         border-bottom:1px solid white;
+         width:65%;
+         margin-left:22%;
+         margin-top:-17%;
+         font-family: "黑体";
+     }
+     .btn1{
+         width:80%;
+         margin-left:10%;
+     }
+     .btn2{
+        width:80%;
+        margin-left:10%;
+        margin-top:5%;
+     }
+     .forget{
+         color:white;
+         margin-left:42%; 
+         font-family: "黑体";
+     }
+     //导航栏
+     .tabbar.show-tabbar {
+        opacity: 0;
+    }
+}

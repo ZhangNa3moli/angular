@@ -1,0 +1,81 @@
+<ion-header>
+    <ion-navbar color="yell">
+        <!-- <button ion-button icon-only menuToggle>
+            <ion-icon name="ios-arrow-back"></ion-icon>
+        </button> -->
+
+        <ion-title>
+            选择发布类型
+        </ion-title>
+    </ion-navbar> 
+  </ion-header> 
+   
+
+<ion-content>   
+    <!--发布-->
+  <div class="con">
+    <ion-list  class="pick">
+        <ion-grid>
+            <ion-row class="inf1" (click)="navCtrl1()">
+                <ion-col class="co">
+                  <img src="../../assets/imgs/money.png">
+                  <span class="zichan">资产包转让</span>
+                </ion-col >
+                <ion-col class="co">
+                  <img src="../../assets/imgs/double.png">
+                  <span>债权转让</span>
+                </ion-col>
+                <ion-col class="co">
+                  <img src="../../assets/imgs/pay.png">
+                  <span>固产转让</span>
+                </ion-col>
+            </ion-row>
+
+            <ion-row class="inf2" (click)="navCtrl2()">
+                <ion-col class="co">
+                  <img src="../../assets/imgs/five.png">
+                  <span>典当担保</span>
+                </ion-col>
+                <ion-col   class="co">
+                  <img src="../../assets/imgs/six.png">
+                  <span>融资借贷</span>
+                </ion-col>
+                <ion-col class="co">
+                  <img src="../../assets/imgs/seven.png">
+                  <span>悬赏信息</span>
+                </ion-col>
+            </ion-row>
+
+            <ion-row class="inf3" (click)="navCtrl3()">
+                <ion-col class="co">
+                  <img src="../../assets/imgs/ee.png">
+                  <span>商业保理</span>
+                </ion-col>
+                <ion-col class="co">
+                  <img src="../../assets/imgs/eight.png">
+                  <span>尽职调查</span>
+                </ion-col>
+                <ion-col class="co">
+                  <img src="../../assets/imgs/che.png">
+                  <span>资产求购</span>
+                </ion-col>
+            </ion-row>
+
+
+            <ion-row class="inf4" (click)="navCtrl4()">
+                <ion-col class="co">
+                  <img src="../../assets/imgs/two.png">
+                  <span>委外催收</span>
+                </ion-col>
+                <ion-col class="le">
+                  <img src="../../assets/imgs/serve.png">
+                  <span>法律服务</span>
+                </ion-col>
+            </ion-row>
+
+        </ion-grid>
+    </ion-list>
+</div>
+
+
+</ion-content>

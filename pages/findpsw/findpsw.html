@@ -1,0 +1,44 @@
+
+
+  <ion-header>
+      <ion-navbar color="transparent">
+            <button ion-button icon-only menuToggle color="wh">
+                 <ion-icon name="ios-arrow-back"></ion-icon>
+            </button>
+    
+            <ion-title>
+                找回密码
+            </ion-title>
+      </ion-navbar>
+  </ion-header>
+
+
+<ion-content>
+  <ion-list>
+      <ion-label>
+        <img  class="phone" src="../../assets/imgs/phone.png">
+      </ion-label>
+      <ion-input type="tel" placeholder="手机号" class="ph"></ion-input>
+  
+       <ion-label>
+          <img  class="code" src="../../assets/imgs/code.png">         
+      </ion-label>
+      <ion-input type="text" placeholder="请输入验证码" class="auth"></ion-input>
+      <button ion-button class="btn" (click)="navCtrl1()">获取验证码</button>
+
+
+      <ion-label>
+          <img  class="lock" src="../../assets/imgs/lock.png">         
+      </ion-label>
+      <ion-input type="text" placeholder="请输入密码" class="psw"></ion-input>
+
+      <ion-label>
+          <img  class="unlock" src="../../assets/imgs/unlock.png">         
+      </ion-label>
+      <ion-input type="text" placeholder="请再次输入密码" class="repsw"></ion-input>
+
+  </ion-list>
+
+  <button ion-button round class="btn1" (click)="navCtrl2()">确认</button>
+
+</ion-content>

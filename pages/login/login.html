@@ -1,0 +1,43 @@
+
+
+  <ion-header>
+      <ion-navbar color="transparent">
+            <button ion-button icon-only menuToggle color="wh">
+                <ion-icon name="ios-arrow-back"></ion-icon>
+            </button>
+    
+            <ion-title>
+                登录
+            </ion-title>
+      </ion-navbar>
+  </ion-header>
+
+<ion-content>
+  <div class="logo">
+       <div class="word1">
+            <img src="../../assets/imgs/dziya.png">
+       </div>
+       <div class="word2">
+            全球不良资产超级综合服务平台
+       </div>
+  </div>
+
+    <ion-list>
+        <ion-label>
+          <img  class="phone" src="../../assets/imgs/user.png">
+        </ion-label>
+        <ion-input type="tel" placeholder="请输入您的手机号" class="ph"></ion-input>
+    
+         <ion-label>
+            <img  class="psw" src="../../assets/imgs/psw.png">         
+        </ion-label>
+        <ion-input type="text" placeholder="请输入您的密码" class="ps"></ion-input>
+    </ion-list>
+
+
+    <button ion-button round class="btn1" (click)="navCtrl1()">登录</button>
+    <button ion-button round outline class="btn2" (click)="navCtrl2()">注册</button>
+
+    <ion-label class="forget" (click)="navCtrl3()">忘记密码？</ion-label> 
+
+</ion-content>

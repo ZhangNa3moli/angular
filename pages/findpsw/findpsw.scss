@@ -1,0 +1,82 @@
+page-findpsw {
+    ion-content{
+        background-image: url(../../assets/imgs/bg1.png);
+        background-size: 100%;    
+     }
+     .toolbar-title{
+         color:#ffffff;
+         margin-left: 25%;
+     }
+     .phone{
+        width:30px;
+        height:35px;
+        margin-left: 10.5%;
+        margin-top:5%;
+     }
+     .ph{
+        border-bottom:1px solid white;
+        width:75%;
+        margin-left:12%;
+        margin-top:-15.5%;
+        font-family: "黑体";
+     }
+     ion-input{
+        font-size:18px;
+        text-indent:15px;
+        height:40px;
+    }
+    .text-input-ios{
+        margin-bottom:8px;
+    }
+     .code{
+        width:28px;
+        height:37px;
+        margin-top:5%;
+        margin-left: 11%;
+     }
+     .auth{
+        border-bottom:1px solid white;
+        width:45%;
+        margin-left:12%;
+        margin-top:-15.5%;
+        font-family: "黑体";
+     }
+     .btn{
+         margin-left:60%;
+         margin-top:-16%;
+         font-family: "黑体";
+         height:35px;
+
+     }
+     .lock{
+        width:28px;
+        height:33px;
+        margin-left: 11%;
+     }
+     .psw{
+        border-bottom:1px solid white;
+        width:75%;
+        margin-left:12%;
+        margin-top:-15.5%;
+        font-family: "黑体";
+     }
+     .unlock{
+        width:28px;
+        height:33px;
+        margin-top:5%;
+        margin-left: 11%;
+     }
+     .repsw{
+        border-bottom:1px solid white;
+        width:75%;
+        margin-left:12%;
+        margin-top:-15.5%;
+        font-family: "黑体";
+     }
+     .btn1{
+        width:77%;
+        margin-left:10%;
+        font-family: "黑体";
+        font-size:18px;
+    }
+}
